@@ -31,7 +31,7 @@ h4{
 h1{
     position: absolute;
     left: 52%;
-    top: 15%;
+    margin-top: 60px;
     color:hsl(212, 21%, 14%);
     @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@1,200;1,400&family=Outfit:wght@300&display=swap');
     
@@ -39,7 +39,7 @@ h1{
 p{
     position: absolute;
     left: 52%;
-    top: 40%;
+    margin-top: 190px;
     width: 220px;
     color: hsl(228, 12%, 48%);
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200;1,400&family=Outfit:wght@300&display=swap');
@@ -50,8 +50,8 @@ p{
     left: 52%;
     top: 65%;
     color: hsl(158, 36%, 37%);
-    font-size: 40px;
-    font-weight: bold;
+    font-size: 25px;
+    font-weight: bolder;
 }
 .price2{
     position: absolute;
@@ -71,7 +71,6 @@ button{
     border-radius: 3px;
     text-align: center;
     border-color:hsl(158, 36%, 37%);
-    display: inline;
 }
 .icon{
     position: absolute;
