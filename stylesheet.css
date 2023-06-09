@@ -1,0 +1,80 @@
+body{
+    background-color: 
+    hsl(30, 38%, 92%);
+}
+.inline{
+    background-color:  hsl(0, 0%, 100%);
+    border-radius: 10px;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+}
+img{
+    position: absolute;
+    left: 0px;
+    width: 250px;
+    height: 500px;
+
+}
+h4{
+    position: absolute;
+    left: 53%;
+    color: hsl(228, 12%, 48%);
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200;1,400&family=Outfit:wght@300&display=swap');
+    font-size: 25px;
+}
+h1{
+    position: absolute;
+    left: 52%;
+    top: 15%;
+    color:hsl(212, 21%, 14%);
+    @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@1,200;1,400&family=Outfit:wght@300&display=swap');
+    
+}
+p{
+    position: absolute;
+    left: 52%;
+    top: 40%;
+    width: 220px;
+    color: hsl(228, 12%, 48%);
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200;1,400&family=Outfit:wght@300&display=swap');
+
+}
+.price1{
+    position: absolute;
+    left: 52%;
+    top: 65%;
+    color: hsl(158, 36%, 37%);
+    font-size: 40px;
+    font-weight: bold;
+}
+.price2{
+    position: absolute;
+    left: 65%;
+    top: 67%;
+    color:hsl(228, 12%, 48%) ;
+    text-decoration: line-through;
+}
+button{
+    position: absolute;
+    left: 52%;
+    top: 82%;
+    background-color:hsl(158, 36%, 37%); 
+    color: white;
+    width: 200px;
+    height: 40px;
+    border-radius: 3px;
+    text-align: center;
+    border-color:hsl(158, 36%, 37%);
+    display: inline;
+}
+.icon{
+    position: absolute;
+    left: 23%;
+    top: 33%;
+}
