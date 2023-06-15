@@ -6,7 +6,7 @@ body{
     background-color:  hsl(0, 0%, 100%);
     border-radius: 10px;
     width: 500px;
-    height: 500px;
+    height: 450px; /*reduced height by 50px for style*/
     position: absolute;
     top: 50%;
     left: 50%;
@@ -55,7 +55,7 @@ p{
 }
 .price2{
     position: absolute;
-    left: 65%;
+    right: 4rem; /*fixed positioning to the right*/
     top: 67%;
     color:hsl(228, 12%, 48%) ;
     text-decoration: line-through;
