@@ -32,6 +32,7 @@ h1{
     position: absolute;
     left: 52%;
     margin-top: 60px;
+    padding-right: 70px;
     color:hsl(212, 21%, 14%);
     @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@1,200;1,400&family=Outfit:wght@300&display=swap');
     
@@ -39,9 +40,9 @@ h1{
 p{
     position: absolute;
     left: 52%;
-    margin-top: 190px;
     width: 220px;
     color: hsl(228, 12%, 48%);
+    top: 35%;
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200;1,400&family=Outfit:wght@300&display=swap');
 
 }
@@ -55,8 +56,8 @@ p{
 }
 .price2{
     position: absolute;
-    left: 65%;
-    top: 67%;
+    left: 77%;
+    top: 66%;
     color:hsl(228, 12%, 48%) ;
     text-decoration: line-through;
 }
